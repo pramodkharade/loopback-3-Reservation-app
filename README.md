@@ -35,23 +35,37 @@ lb relation
 lb acl
 
 ? Select the model to apply the ACL entry to: (all existing models)
+
 ? Select the ACL scope: All methods and properties
+
 ? Select the access type: All (match all types)
+
 ? Select the role All users
+
 ? Select the permission to apply Explicitly deny access
 
 # allow to access campground API's
 lb acl
 
 ? Select the model to apply the ACL entry to: campground
+
 ? Select the ACL scope: All methods and properties
+
 ? Select the access type: Read
+
 ? Select the role All users
+
 ? Select the permission to apply Explicitly grant access
 
 # Allow To Customer API's
+lb acl
+
 ? Select the model to apply the ACL entry to: customer
+
 ? Select the ACL scope: All methods and properties
+
 ? Select the access type: All (match all types)
+
 ? Select the role The user owning the object
+
 ? Select the permission to apply Explicitly grant access
