@@ -69,3 +69,19 @@ lb acl
 ? Select the role The user owning the object
 
 ? Select the permission to apply Explicitly grant access
+
+# Allow administrators  to do all
+
+lb acl
+
+? Select the model to apply the ACL entry to: (all existing models)
+
+? Select the ACL scope: All methods and properties
+
+? Select the access type: All (match all types)
+
+? Select the role other
+
+? Enter the role name: admin
+
+? Select the permission to apply Explicitly grant access
