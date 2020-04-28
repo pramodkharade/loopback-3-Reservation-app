@@ -8,3 +8,7 @@ npm install loopback-connector-mongodb --save
 
 # Create DataSource
 lb datasource
+
+# Create Model
+lb model 
+campground

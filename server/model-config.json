@@ -34,5 +34,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "campground": {
+    "dataSource": "mongo",
+    "public": true
   }
 }
