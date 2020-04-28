@@ -32,10 +32,14 @@
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "campground": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "reservation": {
     "dataSource": "mongo",
     "public": true
   }
