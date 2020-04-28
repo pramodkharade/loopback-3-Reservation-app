@@ -17,3 +17,12 @@ campground , reservation
 Campground can have zero or more reservations hasMany realtion with reservation
 
 lb relation
+
+# All endpoints are public so we are restricting the access: secuity of API access
+we are allowing three types of User
+  1. Anonymous : who can access all campgrounds API's
+  2. Customer : Who can registered then they can make reservation ans they can see there own reservation
+  3. Administration : Who can see anything and do anything.
+# Create Customer Model
+lb model
+customer
