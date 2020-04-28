@@ -48,3 +48,10 @@ lb acl
 ? Select the access type: Read
 ? Select the role All users
 ? Select the permission to apply Explicitly grant access
+
+# Allow To Customer API's
+? Select the model to apply the ACL entry to: customer
+? Select the ACL scope: All methods and properties
+? Select the access type: All (match all types)
+? Select the role The user owning the object
+? Select the permission to apply Explicitly grant access
