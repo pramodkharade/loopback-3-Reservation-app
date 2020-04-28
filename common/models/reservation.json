@@ -16,12 +16,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "customer": {
+      "type": "belongsTo",
+      "model": "customer",
+      "foreignKey": "userId"
+    }
+  },
   "acls": [
     {
       "accessType": "*",
       "principalType": "ROLE",
-      "principalId": "$everyone",
+      "principalId": "$unauthenticated",
       "permission": "DENY"
     },
     {
