@@ -26,3 +26,7 @@ we are allowing three types of User
 # Create Customer Model
 lb model
 customer
+
+# Create Relation Customer can zero or more reseveration : hasMany
+
+lb relation
