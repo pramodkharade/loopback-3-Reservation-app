@@ -15,7 +15,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "reservations": {
+      "type": "hasMany",
+      "model": "reservation",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

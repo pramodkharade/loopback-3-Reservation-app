@@ -11,4 +11,9 @@ lb datasource
 
 # Create Model
 lb model 
-campground
+campground , reservation
+
+# lb realtion
+Campground can have zero or more reservations hasMany realtion with reservation
+
+lb relation
