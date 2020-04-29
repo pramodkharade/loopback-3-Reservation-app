@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5ea7fbf69509e23bd47460fd"},"name":"admin","description":"admin will have full access","created":{"$date":"2020-04-28T09:47:37.36Z"},"modified":{"$date":"2020-04-28T09:47:37.36Z"}}
+{"_id":{"$oid":"5ea7fc1d9509e23bd47460fe"},"name":"customer","description":"customer will have own reservation access","created":{"$date":"2020-04-28T09:47:37.36Z"},"modified":{"$date":"2020-04-28T09:47:37.36Z"}}

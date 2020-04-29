@@ -93,6 +93,6 @@ Email connector : Create Datasource and configured the SMTP and add one entry in
 
 # Export Mongodb Collections command
 
-mongoexport --host=localhost --port=27017 --db=reservationDB --collection=customer --out=customer.json
+mongoexport --host=localhost --port=27017 --db=reservationDB --collection=campground --out=campground.json
 
 
