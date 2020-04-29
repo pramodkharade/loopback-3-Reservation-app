@@ -47,5 +47,8 @@
   "customer": {
     "dataSource": "mongo",
     "public": true
+  },
+  "Email": {
+    "dataSource": "emailDS"
   }
 }

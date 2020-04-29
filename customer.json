@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5ea7f9cd2aff2938dcb351e0"},"name":"Nikhil Sonowal","username":"nikhilsonowal","password":"$2a$10$oJ7hvW.VMETPjaT8Gye5VeQ9QKzViZsImIuyqNT9fzEiIh2330CAS","email":"nikhil@admin.com","emailVerified":false}
+{"_id":{"$oid":"5ea7fa1c2aff2938dcb351e1"},"name":"Ananya Dey","username":"ananyadey","password":"$2a$10$3AZtDqQ5rTjNY3QFE7CHFe2/uvRrj1EoB3pTAA6Jv60r81M2TskEK","email":"ananya@customer.com","emailVerified":false}
+{"_id":{"$oid":"5ea7fa492aff2938dcb351e2"},"name":"Pramod Kharade","username":"pramodkharade","password":"$2a$10$Nyj4Bz/0/PUHcc9zaDMa6ufaL6oWo6EG62pu5rHCi24MELyJvoM6u","email":"pramod@customer.com","emailVerified":false}

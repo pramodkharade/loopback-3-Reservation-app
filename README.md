@@ -85,3 +85,14 @@ lb acl
 ? Enter the role name: admin
 
 ? Select the permission to apply Explicitly grant access
+
+# To confirmed Reservation send email
+
+Email connector : Create Datasource and configured the SMTP and add one entry in model config
+
+
+# Export Mongodb Collections command
+
+mongoexport --host=localhost --port=27017 --db=reservationDB --collection=customer --out=customer.json
+
+
